@@ -88,7 +88,7 @@
       novembro: '11',
       dezembro: '12'
     }
-    return monthsNumbers[month];
+    return monthsNumbers[month.toLowerCase()];
   }
   console.log('O mês de março é representado pelo número ' + getMonthNumber('março') + '.');
   console.log('O mês de setembro é representado pelo número ' + getMonthNumber('setembro') + '.');
