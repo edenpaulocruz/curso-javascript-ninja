@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 100px auto;
+  max-width: 480px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chronometer  {
+  background-color: ghostwhite;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+input {
+  background-color: ghostwhite;
+  border: none;
+  font-size: 64px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: red;
+}
+
+.reset {
+  background-color: blue;
+}
