@@ -25,6 +25,7 @@ dado ao elemento HTML deve definir o que o elemento é ou o que ele faz.
   $time.value = 0; // Zera o cronômetro quando der um refresh na página
 
   function startTime() {
+    clearTimeout(tempTimeout);
     $time.value++;
     tempTimeout = setTimeout(startTime, 1000);
   }
