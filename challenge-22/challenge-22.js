@@ -87,6 +87,7 @@
   */
   console.log( '\nEntrada do usuário limpa. Somente números:' );
   var numbers = justNumbers(userEntry);
+  console.log(numbers);
 
   /*
   Agora com o array de números, utilize a função `sum` para somar todos os
